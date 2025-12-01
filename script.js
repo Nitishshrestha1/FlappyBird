@@ -56,7 +56,7 @@ setTimeout((() => setInterval(() => createPipe(2), 2000)),1000);
 const bird = document.querySelector('.bird');
 let birdY = 200;
 let velocity = 0;
-const gravity = 0.13;
+const gravity = 0.23;
 const jumpPower = -4.4;
 
 function updateVelocity() {
@@ -134,4 +134,5 @@ function gameOver() {
     alert('Game Over!');
     location.reload();
 }
+
 
