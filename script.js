@@ -57,7 +57,7 @@ const bird = document.querySelector('.bird');
 let birdY = 200;
 let velocity = 0;
 const gravity = 0.43;
-const jumpPower = -4.4;
+const jumpPower = -6.4;
 
 function updateVelocity() {
     velocity +=gravity;
@@ -134,6 +134,7 @@ function gameOver() {
     alert('Game Over!');
     location.reload();
 }
+
 
 
 
